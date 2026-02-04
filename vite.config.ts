@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    allowedHosts: ['luudo.org'],
+    allowedHosts: ['luudo.org', 'www.luudo.org'],
     proxy: {
       "/api": {
         target: "http://localhost:3000",

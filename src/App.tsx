@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import axios, { all } from 'axios'
 import type { LayoutProps, BookAndChapterData, MenuProps, TableOfContentsProps, MenuLinkProps } from './types'
+import "./App.css";
+
+
 
 const getBookAndChapters = () => {
   const url = `/api/toc`
